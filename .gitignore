@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FAISS index (large binary, rebuilt at runtime)
+faiss_index/
+*.index
+
+# Local config (copy .env.example)
+.env
+
+# Saved knowledge bases
+indexes/
+
+# Eval outputs
+eval/results/
+
+# Logs and temp
+*.log
+uploads/
+tmp/
+temp/
+.pytest_cache/
+
+# Downloaded benchmark data (licensed separately)
+eval/data/
